@@ -1,35 +1,51 @@
-
-body{background-color: #CCCCCC}
-
-.guide {
-	position: absolute;
+*{
+    margin:0;padding:0;
+}
+body{
+    font-family:'Microsoft YaHei';
+    background-color: #CCCCCC;;
+}
+/*guide****************************************8*/
+header {
+	position: relative;
 	left: 0px;
 	top: 0px;
-
 	background-color: #696969;
 	width: 100%;
 	height: 80px;
-
-	font-family: "Microsoft Yahei";
 }
-.guide ul {
-	float: right;
+header ul {
+/*	float: right;*/
+	position:absolute;
+	top:0;
+	right:10px;
 }
-.guide li {
+header ul li {
+	text-align: center;
 	float: left;
+	width: 60px;
 	display: block;
-	padding: 10px;
+	padding: 20px 10px;
 	margin: 0px;
 }
-.guide a:link {
-	font-color: #FFF;
+header ul li a{
+	font-color: white;
 	text-align: center;
+	font-size: 100px;
+}
+header ul li:hover{
+	border-bottom: 1px solid red;
+	background: #474747;
+	border-radius: 3px;
 }
 
 .wrap {
 	font-family: "Microsoft Yahei";
 	position: relative;
 	height: auto;
+	min-height: 100%;
+	padding-bottom:50px;
+	margin-bottom: 170px;
 }
 .wrap span {
 	font-size: 12px;
@@ -114,7 +130,10 @@ body{background-color: #CCCCCC}
 	margin-left: auto;
 
 }
-.footer {
+.blank {
+	height: 50px;
+}
+/*.footer {
 	position: absolute;
 	bottom: -100px;
 	left: auto;
@@ -125,5 +144,14 @@ body{background-color: #CCCCCC}
 	background-color: #000;
 	color: #FFF;
 	text-align: center;
-}
+}*/
 
+footer{
+    width:100%;
+    height:50px;
+    background:black;
+    color:white;
+    text-align:center;
+    line-height:50px;
+    font-size:14px;
+}

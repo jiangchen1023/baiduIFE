@@ -1,0 +1,211 @@
+*{
+    margin:0;padding:0;
+}
+body{
+    font-family:'Microsoft YaHei';
+    background-color: #CCCCCC;
+}
+/*guide****************************************8*/
+header {
+	position: relative;
+	left: 0px;
+	top: 0px;
+/*	background-color: #696969;*/
+	background:#333;
+	width: 100%;
+	height: 60px;
+}
+header ul {
+	float: right;
+	position:absolute;
+	top:0;
+	right:10px;
+}
+header ul li {
+	text-align: center;
+	float: left;
+	width: 60px;
+	display: block;
+	padding: 20px 10px;
+	margin: 0px;
+}
+header ul li a{
+	text-decoration: none;  /*no line under text*/
+	color: white;  /*not font-color*/
+	text-align: center;
+	font-size: 12px;
+}
+header ul li:hover{  /*a box out of <li>*/
+	border-bottom: 1px solid red;
+	background: #474747;
+	border-radius: 3px;
+}
+
+.wrap {
+	position: relative;
+	height: auto;
+	min-height: 100%;
+}
+.wrap span {
+	font-size: 12px;
+	color:#808080;
+}
+.wrap p {
+	text-indent: 2em;
+}
+/*.wrap {
+	padding-top: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+
+	margin-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+	min-height: 100%;
+	width: 99%;
+	background-color: #FFF;
+
+	position: relative;
+	top: 80px;
+}
+*/
+article{
+    display:block;
+    margin:30px;padding:20px;
+    background:white;
+    box-shadow:1px 1px 2px 1px #848484;
+}
+article h2{
+    padding:5px 0;
+}
+article h3{
+    padding:10px 0;
+    color:#808080;
+    font-size:16px;
+}
+article p{
+	padding: 8px 0;
+}
+article table {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	text-align: left;
+	font-size: 12px;
+	border-collapse: collapse;  /*single border*/
+}
+article table tr th {
+	background-color: #000;
+	color:#FFF;
+}
+article table tr td {
+	border:1px solid #ccc;
+	line-height: 25px;
+}
+article tfoot {
+	background-color: #808080;
+	font-weight: bold;
+}
+article p {
+	text-indent: 2em;
+}
+article ul li{
+	list-style-type: none;  /*remove point in front of list*/
+}
+.article2 img {
+	padding: 10px;
+}
+.article2 li {
+	padding-left: 20px;
+	line-height: 30px;
+}
+.article3 ul {
+	margin-left: 50px;
+	margin-top: 20px;
+}
+.article3 li {
+	width:120px;
+    margin-bottom: 20px;
+    border:1px solid #ccc;
+    text-align: center;
+}
+.article3 li span {
+	display: block;
+	padding-top: 10px;
+    font-size:12px;
+    text-align:center;
+    color: black;
+}
+.article3 li img{
+    width:100px;
+    padding:10px;
+    text-align: center;
+}
+.article4 ol {
+	margin-left: 50px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 15px;
+	line-height: 25px;
+}
+aside {
+	display: block;
+	line-height:30px;
+	top: 100px;
+	margin: 30px;
+	padding: 20px;
+	background-color: #FFF;
+    box-shadow:1px 1px 2px 1px #848484;
+}
+aside h4{
+    height:40px;
+    line-height:40px;
+    padding-left:10px;
+    border-left:3px solid #ccc;  /*add left border*/
+}
+aside table {  /*table align???????????????????????????*/
+	position: relative;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	align: center;
+}
+aside label {
+}
+#email_input {
+	text-align: right;
+}
+aside tfoot {
+	
+}
+aside .submit_button{
+    width:100%;
+    height:40px;
+    border-radius: 10px;
+    background: #128fdc;
+    color: white;
+    font-size: 19px;
+    border:none;
+}
+aside .submit_button:hover{
+    background: #0063dc;
+}
+aside .label {
+	text-align: right;
+}
+aside .input_area {
+	text-align: left;
+}
+aside td {
+	font-size: 12px;
+}
+footer{
+    width:100%;
+    height:70px;
+    background:black;
+    color:white;
+    text-align:center;
+    line-height:50px;
+    font-size:14px;
+}
