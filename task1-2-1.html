@@ -2,8 +2,8 @@
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
-		<title>task2-1</title>
-		<link href="style/task1-2.css" rel="stylesheet" type="text/css" />
+		<title>task1-2-1</title>
+		<link href="style/task1-2-1.css" rel="stylesheet" type="text/css" />
 	</head>
 	<body>
 		<header role="banner">
@@ -16,7 +16,6 @@
 	            </ul>
 	        </nav>
         </header>
-
 		<!--正文-->
 		<div class="wrap">
 			<!--第一篇文章-->
@@ -125,71 +124,71 @@
 				</table>
 			</article>
 		</div>
-			<!--个人信息-->
-			<aside>
-				<h4>这里以后是一个侧栏，这是侧栏的标题</h4>
-				<form method="post" action="sign_up.php">
-					<table>
+		<!--个人信息-->
+		<aside>
+			<h4>这里以后是一个侧栏，这是侧栏的标题</h4>
+			<form method="post" action="sign_up.php">
+				<table>
+					<tr>
+						<td class="label"><label for="email" id="email_input">请输入邮箱地址</label></td>
+						<td><input type="text" name="email" id="email" value="这是一个文本输入框"/></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td>邮箱地址请按要求格式输入</td>
+					</tr>
+					<tr>
+						<td class="label">请输入密码</td>
+						<td class="input_area"><input type="text" name="pass" id="pass" value="这是一个文本输入框"/></td>
+					</tr>
+					<tr>
+						<td class="label">请重复输入密码</td>
+						<td class="input_area"><input type="text" name="passagain" id="passagain" value="这是一个文本输入框"/></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td>密码请为6-16位英文数字</td>
+					</tr>
+					<tr>
+						<td class="label">性别</td>
+						<td class="input_area"><input type="radio" name="gender" id="male" value="male" checked="checked" />
+							<label for="male" >男</label>
+							<input type="radio" name="gender" id="female" value="female" />
+							<label for="female" >女</label></td>
+					</tr>
+					<tr>
+						<td class="label">城市</td>
+						<td class="input_area"><select name="city">
+							<option value="beijing" selected="selected">北京</option>
+							<option value="shanghai">上海</option>
+							</select></td>
+					</tr>
+					<tr>
+						<td class="label">爱好</td>
+						<td class="input_area"><input type="checkbox" name="hobby" id="sport" value="sport"/>
+							<label for="sport" >运动</label>
+							<input type="checkbox" name="hobby" id="art" value="art"/>
+							<label for="art" >艺术</label>
+							<input type="checkbox" name="hobby" id="sci" value="sci"/>
+							<label for="sci" >科学</label></td>
+					</tr>
+					<tr>
+						<td class="label">个人描述</td>
+						<td class="input_area"><textarea cols="50" rows="10">这是一个多行输入框，输入您的个人描述</textarea></td>
+					</tr>
+					<tfoot>
 						<tr>
-							<td class="label"><label for="email" id="email_input">请输入邮箱地址</label></td>
-							<td><input type="text" name="email" id="email" value="这是一个文本输入框"/></td>
+							<!--<td colspan="2">确认提交</td>-->
+							<td colspan="2"></td>
 						</tr>
-						<tr>
-							<td></td>
-							<td>邮箱地址请按要求格式输入</td>
-						</tr>
-						<tr>
-							<td class="label">请输入密码</td>
-							<td class="input_area"><input type="text" name="pass" id="pass" value="这是一个文本输入框"/></td>
-						</tr>
-						<tr>
-							<td class="label">请重复输入密码</td>
-							<td class="input_area"><input type="text" name="passagain" id="passagain" value="这是一个文本输入框"/></td>
-						</tr>
-						<tr>
-							<td></td>
-							<td>密码请为6-16位英文数字</td>
-						</tr>
-						<tr>
-							<td class="label">性别</td>
-							<td class="input_area"><input type="radio" name="gender" id="male" value="male" checked="checked" />
-								<label for="male" >男</label>
-								<input type="radio" name="gender" id="female" value="female" />
-								<label for="female" >女</label></td>
-						</tr>
-						<tr>
-							<td class="label">城市</td>
-							<td class="input_area"><select name="city">
-								<option value="beijing" selected="selected">北京</option>
-								<option value="shanghai">上海</option>
-								</select></td>
-						</tr>
-						<tr>
-							<td class="label">爱好</td>
-							<td class="input_area"><input type="checkbox" name="hobby" id="sport" value="sport"/>
-								<label for="sport" >运动</label>
-								<input type="checkbox" name="hobby" id="art" value="art"/>
-								<label for="art" >艺术</label>
-								<input type="checkbox" name="hobby" id="sci" value="sci"/>
-								<label for="sci" >科学</label></td>
-						</tr>
-						<tr>
-							<td class="label">个人描述</td>
-							<td class="input_area"><textarea cols="50" rows="10">这是一个多行输入框，输入您的个人描述</textarea></td>
-						</tr>
-						<tfoot>
-							<tr>
-								<!--<td colspan="2">确认提交</td>-->
-								<td colspan="2"></td>
-							</tr>
-						</tfoot><!-- 
-						<div class="submit_button">
-						<button class="submit_button" type="submit"  name="submit" >确认提交</button>
-						</div> -->
-					</table>
-				</form>
-				<input type="button" class="submit_button" value="确认提交" />
-			</aside>
+					</tfoot><!-- 
+					<div class="submit_button">
+					<button class="submit_button" type="submit"  name="submit" >确认提交</button>
+					</div> -->
+				</table>
+			</form>
+			<input type="button" class="submit_button" value="确认提交" />
+		</aside>
 		<!--版权所有-->
 		<footer>
 			<p>版权所有&copy;ITress</p>
