@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding:0;
+}
+#rectangle {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 400px;
+	height: 200px;
+	background-color: #CCCCCC;
+	margin-top: -100px;
+	margin-left: -200px;
+}
+#circle_lefttop {
+	position: absolute;
+    width: 50px;
+    height: 50px;
+    background: yellow;
+    border-radius: 0 0 50px 0;
+    top: 0px;
+    left: 0px;
+}
+#circle_rightbottom {
+	position: absolute;
+    width: 50px;
+    height: 50px;
+    background: yellow;
+    border-radius: 50px 0 0 0;
+    bottom: 0px;
+    right: 0px;
+}
