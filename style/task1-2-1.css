@@ -166,10 +166,13 @@ aside h4{
 }
 aside table {  /*table align???????????????????????????*/
 	position: relative;
-	width: 90%;
+	width: 50%;
 	margin-left: auto;
 	margin-right: auto;
-	align: center;
+	padding: 20px;
+/*	align-items: center;
+	align-content: center;
+	align-self: center;*/
 }
 aside label {
 }
